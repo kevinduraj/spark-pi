@@ -13,7 +13,7 @@ time spark-submit                                       \
     --driver-memory   32G                               \
     --executor-memory 16G                               \
     target/scala-2.11/spark-pi_2.11-0.1.jar             \
-    "10000" 
+    "1000" 
 
 #-----------------------------------------------------------------------------------#
 else
