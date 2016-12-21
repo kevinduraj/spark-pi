@@ -7,13 +7,13 @@
 #-----------------------------------------------------------------------------------#
 elif [ "$1" == "1" ] 2>/dev/null; then
 
-spark-submit                                            \
+time spark-submit                                       \
     --class "org.apache.spark.examples.SparkPi"         \
     --master spark://69.13.39.34:7077                   \
     --driver-memory   32G                               \
     --executor-memory 16G                               \
     target/scala-2.11/spark-pi_2.11-0.1.jar             \
-    "1000" 
+    "10000" 
 
 #-----------------------------------------------------------------------------------#
 else
