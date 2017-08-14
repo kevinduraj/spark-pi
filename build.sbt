@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.11.8"
 
-val sparkVersion = "2.0.0"
+val sparkVersion = "2.1.1"
 
 val SparkCassandraConnector = "2.0.0-M2"
 
